@@ -16,12 +16,12 @@ class Calculator {
       case "*":
         return a * b;
       case "/":
-        if (b === 0) throw new Error("Division by zero");
+        if (b === 0) throw new Error("Error");
         return a / b;
       case "%":
         return a % b;
       default:
-        throw new Error("Invalid operator");
+        throw new Error("Invalid");
     }
   }
 
